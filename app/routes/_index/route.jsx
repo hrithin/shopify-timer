@@ -1,15 +1,14 @@
-// app/routes/_index/route.jsx
 import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
+import CountdownTimers from "../CountdownTimers";
 
-import CountdownTimers from '../CountdownTimers';
+
 
 export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
 
 export default function IndexRoute() {
   return (
-    <div>
+    
       <CountdownTimers />
-    </div>
+   
   );
 }
-
