@@ -1,0 +1,6 @@
+{
+  "name": "Countdown Timer",
+  "type": "countdown_timer",
+  "target": "section",
+  "settings": []
+}
