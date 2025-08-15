@@ -3,7 +3,7 @@
 client_id = "85cdcb910aeec8e6631fd7d983345327"
 name = "shop-timer"
 handle = "shop-timer"
-application_url = "https://plot-origins-seemed-practitioner.trycloudflare.com"
+application_url = "https://slides-authority-berry-cosmetic.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://plot-origins-seemed-practitioner.trycloudflare.com/auth/callback", "https://plot-origins-seemed-practitioner.trycloudflare.com/auth/shopify/callback", "https://plot-origins-seemed-practitioner.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://slides-authority-berry-cosmetic.trycloudflare.com/auth/callback", "https://slides-authority-berry-cosmetic.trycloudflare.com/auth/shopify/callback", "https://slides-authority-berry-cosmetic.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
