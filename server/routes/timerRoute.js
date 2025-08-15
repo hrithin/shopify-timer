@@ -22,4 +22,19 @@ router.get("/:storeDomain", async (req, res) => {
   }
 });
 
+// Delete a timer by ID
+router.delete("/:id", async (req, res) => {
+  try {
+    const deletedTimer = await Timer.findByIdAndDelete(req.params.id);
+
+    if (!deletedTimer) {
+      return res.status(404).json({ error: "Timer not found" });
+    }
+
+    res.json({ message: "Timer deleted successfully", deletedTimer });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 module.exports = router;
