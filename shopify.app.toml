@@ -3,7 +3,7 @@
 client_id = "85cdcb910aeec8e6631fd7d983345327"
 name = "shop-timer"
 handle = "shop-timer"
-application_url = "https://sr-training-divisions-fonts.trycloudflare.com"
+application_url = "https://considerable-creation-bolt-aid.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://sr-training-divisions-fonts.trycloudflare.com/auth/callback", "https://sr-training-divisions-fonts.trycloudflare.com/auth/shopify/callback", "https://sr-training-divisions-fonts.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://considerable-creation-bolt-aid.trycloudflare.com/auth/callback", "https://considerable-creation-bolt-aid.trycloudflare.com/auth/shopify/callback", "https://considerable-creation-bolt-aid.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
